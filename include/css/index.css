@@ -1,0 +1,117 @@
+@charset "utf-8";
+body{
+	padding: 15px;
+	height: auto;
+	background:-moz-linear-gradient(top, #51A8FF, #fff);
+	background:-webkit-gradient(linear, left top, left bottom, from( #51A8FF), to(#fff));
+	
+	background-size:2500;
+		}
+#head table{
+	width:990px;
+	height:auto;
+	margin:auto;
+	}
+#head table tr td{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-justify: distribute;
+	font-weight: bold;
+	}
+#head table tr td img{
+	float:left;
+	margin-top:5px;
+	margin-left:250px;
+	margin-bottom:5px;
+	margin-right:20px;
+	}
+#maica{
+padding-left:20px;
+padding-right:20px;
+font-size:10px;
+color: #666;
+}
+
+#icon_holder{
+	margin-top:1px;
+	margin-left:1px;
+	margin-right:1px;
+	margin-bottom:1px;
+	width:1300px;
+	height:445px;
+	alignment-adjust:central;
+}
+iframe{
+	min-height: 1000px;
+	width: 1300px;
+	alignment-adjust:central;
+	margin-top:1px;
+	margin-left:1px;
+	margin-right:1px;
+	margin-bottom:1px;
+}
+/*iframe{
+	min-height:;
+	alignment-adjust:central;
+	margin-top:1px;
+	margin-left:1px;
+	margin-right:1px;
+	margin-bottom:1px;
+	width:1300px;
+	height:1000px;
+}*/
+.title{
+	margin:auto;
+	width:900px;
+	height:45px;
+	text-align:right;
+	}	
+
+#welcome{
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	margin-bottom:3px;
+	width:900px;
+	height:42px;
+	background:#51A8FF;
+	border-radius:15px;
+	padding:2px;
+	}
+#icon_welcome{
+	width: 35px;
+	height: 35px;
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	float: right;
+	}
+#welcomename{
+	text-align: center;
+	width: 30px;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 3px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	border-radius: 15px;
+	}
+#icon_welcome img{
+    border: 1px solid #51A8FF;
+	border-radius:2px;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+#icon_welcome img:hover {
+    margin-left:10px;
+}
